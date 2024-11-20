@@ -39,21 +39,26 @@ def geracao_texto(mensagens, model="gpt-4o-mini", max_tokens=1000, temperature=0
         stream=True,
     )
 
+    print("CardBot: ", end="")
     resposta_completa = ""
     for resposta_stream in resposta:
         text = resposta_stream.choices[0].delta.content
         if text:
-            resposta_completa += text
             print(text, end="")
-
+            resposta_completa += text
+    print()
     mensagens.append({"role": "assistant", "content": resposta_completa})
     return mensagens
 
 
 if __name__ == "__main__":
+
+    print("Pergunte algo para o CardBot ou digite sair para encerrar")
+    mensagens = []
     while True:
-        texto = input("Pergunte algo para o CardBot ou digite sair para encerrar: ")
+        texto = input("User: ")
         if texto.lower() in ["sair"]:
-            print("Encerrando o CardBot. Até mais!")
+            print("Encerrando o CardBot. Até mais! =]")
             break
-        geracao_texto([{"role": "assistant", "content": texto}])
+        mensagens.append({"role": "user", "content": texto})
+        mensagens = geracao_texto(mensagens)
