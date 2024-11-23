@@ -1,13 +1,12 @@
-from dotenv import load_dotenv
 import openai
+import json
+from dotenv import load_dotenv
+from functions.functions import funcoes_disponiveis
+from tools.tools import descriptions
 
-
-# O código só vai funcionar com uma OPENAI_API_KEY válida.
-_ = load_dotenv()
 client = openai.Client()
 
-
-def geracao_texto(mensagens, model="gpt-4o-mini", max_tokens=1000, temperature=0):
+def geracao_texto(mensagens, model="gpt-4o-mini", max_tokens=1000, temperature=1, tools = descriptions):
     """
     Gera texto baseado nas mensagens fornecidas, utilizando um modelo de linguagem.
 
@@ -26,7 +25,7 @@ def geracao_texto(mensagens, model="gpt-4o-mini", max_tokens=1000, temperature=0
     Raises:
         ValueError: Caso os parâmetros sejam inválidos ou mensagens estejam em formato inadequado.
 
-    Exemplo:
+    Example:
         mensagens = [{'role': 'user', 'content': 'Explique a teoria da relatividade.'}]
         resposta = geracao_texto(mensagens)
     """
@@ -36,29 +35,32 @@ def geracao_texto(mensagens, model="gpt-4o-mini", max_tokens=1000, temperature=0
         model=model,
         max_tokens=max_tokens,
         temperature=temperature,
-        stream=True,
+        tools=descriptions,
+        tool_choice='auto'
     )
 
-    print("CardBot: ", end="")
-    resposta_completa = ""
-    for resposta_stream in resposta:
-        text = resposta_stream.choices[0].delta.content
-        if text:
-            print(text, end="")
-            resposta_completa += text
+    print("TickerBot: ", end="")
+    tool_calls = resposta.choices[0].message.tool_calls
+    mensagens.append(resposta.choices[0].message)
+    if tool_calls:
+        for tool_call in tool_calls:
+            func_name = tool_call.function.name
+            function_to_call = funcoes_disponiveis[func_name]
+            func_args = json.loads(tool_call.function.arguments)
+            func_return = function_to_call(func_args['ticker'], func_args['periodo'])
+            mensagens.append({
+                'tool_call_id': tool_call.id,
+                'role': 'tool',
+                'name': func_name,
+                'content': func_return
+            })
+        segunda_resposta = client.chat.completions.create(
+            messages=mensagens,
+            model='gpt-3.5-turbo-0125',
+        )
+        mensagens.append(segunda_resposta.choices[0].message)
+    
+    print(mensagens[-1].content, end='')
     print()
-    mensagens.append({"role": "assistant", "content": resposta_completa})
+
     return mensagens
-
-
-if __name__ == "__main__":
-
-    print("Pergunte algo para o CardBot ou digite sair para encerrar")
-    mensagens = []
-    while True:
-        texto = input("User: ")
-        if texto.lower() in ["sair"]:
-            print("Encerrando o CardBot. Até mais! =]")
-            break
-        mensagens.append({"role": "user", "content": texto})
-        mensagens = geracao_texto(mensagens)

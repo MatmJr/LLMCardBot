@@ -19,3 +19,4 @@ langchain-chroma
 faiss-cpu
 lark
 black
+yfinance
