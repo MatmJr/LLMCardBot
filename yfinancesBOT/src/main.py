@@ -6,8 +6,6 @@ from functions.functions import *
 from functions.textGen import *
 
 
-
-
 _ = load_dotenv()
 
 client = openai.Client()

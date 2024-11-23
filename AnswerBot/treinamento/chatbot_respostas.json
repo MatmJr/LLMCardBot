@@ -1,0 +1,663 @@
+[
+    {
+        "pergunta": "Qual é a fórmula da área de um círculo?",
+        "resposta": "A área de um círculo é π vezes o raio ao quadrado (A = πr²).",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um substantivo?",
+        "resposta": "Substantivo é a classe gramatical de palavras que nomeiam seres, objetos, fenômenos, lugares, qualidades e ações.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é inércia?",
+        "resposta": "Inércia é a tendência de um corpo manter seu estado de repouso ou movimento uniforme, a menos que forças atuem sobre ele.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma equação do segundo grau?",
+        "resposta": "É uma equação polinomial onde o maior expoente da incógnita é 2, geralmente na forma ax² + bx + c = 0.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é fotossíntese?",
+        "resposta": "Fotossíntese é o processo pelo qual plantas e outros organismos convertem luz solar em energia química para alimentar suas atividades.",
+        "categoria": "Biologia"
+    },
+    {
+        "pergunta": "O que é um verbo?",
+        "resposta": "Verbo é a classe de palavras que expressa ações, estados, fenômenos da natureza ou existência.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é a Lei da Gravitação Universal?",
+        "resposta": "É a lei que descreve a atração gravitacional entre duas massas, proporcional ao produto das massas e inversamente ao quadrado da distância entre elas.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "Como se calcula a média aritmética?",
+        "resposta": "A média aritmética é calculada somando-se todos os valores e dividindo pelo número total de valores.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um adjetivo?",
+        "resposta": "Adjetivo é a classe de palavras que qualifica ou caracteriza substantivos, indicando atributos ou propriedades.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é energia cinética?",
+        "resposta": "Energia cinética é a energia que um objeto possui devido ao seu movimento, calculada por 1/2 mv².",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é um número primo?",
+        "resposta": "Número primo é um número natural maior que 1 que possui apenas dois divisores distintos: ele mesmo e o número 1.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um pronome?",
+        "resposta": "Pronome é a classe de palavras que substitui ou acompanha substantivos, indicando sua posição em relação às pessoas do discurso.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é a Primeira Lei de Newton?",
+        "resposta": "É a Lei da Inércia, que afirma que um corpo em repouso ou em movimento retilíneo uniforme tende a permanecer assim.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "Como se resolve uma inequação do primeiro grau?",
+        "resposta": "Isola-se a incógnita em um dos lados da inequação e determina-se o conjunto solução que satisfaz a desigualdade.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um artigo?",
+        "resposta": "Artigo é a classe de palavras que antecede os substantivos para determiná-los ou indeterminá-los.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é a Segunda Lei de Newton?",
+        "resposta": "É a Lei da Dinâmica, que relaciona a força aplicada a um corpo à sua massa e aceleração (F = ma).",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma função afim?",
+        "resposta": "Uma função afim é uma função polinomial do primeiro grau, dada por f(x) = ax + b, onde a e b são constantes.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um advérbio?",
+        "resposta": "Advérbio é a classe de palavras que modifica verbos, adjetivos ou outros advérbios, indicando circunstâncias diversas.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é a Terceira Lei de Newton?",
+        "resposta": "É a Lei da Ação e Reação, que afirma que para toda ação existe uma reação de igual intensidade e direção oposta.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "Como se calcula a diagonal de um quadrado?",
+        "resposta": "A diagonal de um quadrado é calculada multiplicando o lado do quadrado pela raiz quadrada de 2 (d = l√2).",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é uma conjunção?",
+        "resposta": "Conjunção é a classe de palavras invariáveis que ligam orações ou palavras de mesma função gramatical.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é velocidade média?",
+        "resposta": "Velocidade média é a razão entre o deslocamento de um objeto e o tempo gasto para esse deslocamento.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é um polígono regular?",
+        "resposta": "Um polígono regular é uma figura geométrica plana com todos os lados e ângulos internos iguais.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é uma preposição?",
+        "resposta": "Preposição é a classe de palavras que estabelece relações entre dois ou mais termos da oração.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é aceleração?",
+        "resposta": "Aceleração é a taxa de variação da velocidade de um objeto em função do tempo.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "Como se calcula o volume de um cilindro?",
+        "resposta": "O volume de um cilindro é calculado multiplicando a área da base pela altura (V = πr²h).",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um interjeição?",
+        "resposta": "Interjeição é a classe de palavras que expressa emoções, sentimentos, reações ou comandos de forma súbita e isolada.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é pressão?",
+        "resposta": "Pressão é a força exercida perpendicularmente por unidade de área sobre uma superfície.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma matriz?",
+        "resposta": "Matriz é um arranjo retangular de números, símbolos ou expressões, dispostos em linhas e colunas.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um numeral?",
+        "resposta": "Numeral é a classe de palavras que quantifica ou ordena substantivos, indicando quantidade, posição ou multiplicidade.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é potência elétrica?",
+        "resposta": "Potência elétrica é a taxa de consumo de energia elétrica ou a velocidade com que o trabalho é realizado.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é um polinômio?",
+        "resposta": "Um polinômio é uma expressão algébrica composta por uma soma finita de termos, cada um consistindo de um produto de constantes e variáveis.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um sujeito na oração?",
+        "resposta": "Sujeito é o termo da oração que indica quem pratica ou recebe a ação verbal, podendo ser simples, composto, oculto ou inexistente.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é resistência elétrica?",
+        "resposta": "Resistência elétrica é a oposição que um material apresenta ao fluxo de corrente elétrica, medida em ohms (Ω).",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma equação diferencial?",
+        "resposta": "Uma equação diferencial é uma equação que relaciona uma função com suas derivadas.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um predicado na oração?",
+        "resposta": "Predicado é o termo da oração que contém o verbo e informa algo sobre o sujeito, podendo ser verbal, nominal ou verbo-nominal.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um circuito elétrico?",
+        "resposta": "Um circuito elétrico é um caminho fechado por onde passa corrente elétrica, composto por fonte de energia, condutores e carga.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é um vetor?",
+        "resposta": "Um vetor é um objeto matemático que possui magnitude (ou tamanho) e direção, representado graficamente por uma seta.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um objeto direto?",
+        "resposta": "Objeto direto é o complemento que se liga ao verbo sem preposição, indicando o receptor da ação verbal.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um transformador elétrico?",
+        "resposta": "Um transformador elétrico é um dispositivo que altera os níveis de tensão e corrente em um circuito elétrico.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma sequência numérica?",
+        "resposta": "Uma sequência numérica é um conjunto ordenado de números que segue uma regra ou padrão específico.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um objeto indireto?",
+        "resposta": "Objeto indireto é o complemento que se liga ao verbo por meio de uma preposição, indicando o beneficiário ou alvo indireto da ação.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é indução eletromagnética?",
+        "resposta": "Indução eletromagnética é o fenômeno que gera corrente elétrica a partir da variação do campo magnético.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é um limite em cálculo?",
+        "resposta": "Limite é o valor que uma função se aproxima à medida que a variável independente se aproxima de um ponto específico.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um complemento nominal?",
+        "resposta": "Complemento nominal é o termo que completa o sentido de um nome (substantivo, adjetivo ou advérbio) e vem sempre precedido de preposição.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um diodo?",
+        "resposta": "Um diodo é um componente eletrônico que permite a passagem de corrente elétrica em uma única direção.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma integral em cálculo?",
+        "resposta": "Integral é o conceito matemático que representa o somatório de infinitos termos infinitesimais, oposto à derivação.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um agente da passiva?",
+        "resposta": "Agente da passiva é o complemento que indica quem pratica a ação na voz passiva, geralmente introduzido pela preposição 'por' ou 'pelo'.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um capacitor?",
+        "resposta": "Um capacitor é um componente eletrônico capaz de armazenar e liberar energia elétrica na forma de campo elétrico.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma série geométrica?",
+        "resposta": "Uma série geométrica é a soma dos termos de uma sequência geométrica, onde cada termo é o anterior multiplicado por uma constante.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um aposto?",
+        "resposta": "Aposto é um termo que explica, resume, especifica ou desenvolve um substantivo anterior, podendo ser separado por vírgulas.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um resistor?",
+        "resposta": "Um resistor é um componente eletrônico que oferece resistência ao fluxo de corrente elétrica, dissipando energia sob a forma de calor.",
+        "categoria": "Física"
+    },
+    
+    {
+        "pergunta": "O que é um átomo?",
+        "resposta": "Um átomo é a menor unidade de um elemento químico, composto por prótons, nêutrons e elétrons.",
+        "categoria": "Química"
+    },
+    {
+        "pergunta": "O que é um paralelogramo?",
+        "resposta": "Um paralelogramo é um quadrilátero com lados opostos paralelos e de igual comprimento.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um substantivo coletivo?",
+        "resposta": "Substantivo coletivo é um substantivo que, mesmo no singular, refere-se a um conjunto de seres da mesma espécie.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é a Lei de Ohm?",
+        "resposta": "A Lei de Ohm afirma que a corrente em um condutor é diretamente proporcional à tensão e inversamente proporcional à resistência.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é um ângulo reto?",
+        "resposta": "Um ângulo reto é um ângulo de 90 graus.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um predicativo do sujeito?",
+        "resposta": "Predicativo do sujeito é o termo que atribui uma característica ou estado ao sujeito da oração.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um catalisador?",
+        "resposta": "Um catalisador é uma substância que acelera uma reação química sem ser consumida no processo.",
+        "categoria": "Química"
+    },
+    {
+        "pergunta": "O que é um triângulo isósceles?",
+        "resposta": "Um triângulo isósceles tem dois lados de igual comprimento e dois ângulos iguais.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um verbo transitivo?",
+        "resposta": "Verbo transitivo é aquele que necessita de um complemento, direto ou indireto, para ter sentido completo.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um espectro eletromagnético?",
+        "resposta": "O espectro eletromagnético é a distribuição de todas as ondas eletromagnéticas por frequência ou comprimento de onda.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma reação exotérmica?",
+        "resposta": "Uma reação exotérmica libera calor para o ambiente durante o processo químico.",
+        "categoria": "Química"
+    },
+    {
+        "pergunta": "O que é um triângulo escaleno?",
+        "resposta": "Um triângulo escaleno é um triângulo com todos os lados e ângulos de medidas diferentes.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é uma oração subordinada?",
+        "resposta": "Uma oração subordinada é aquela que depende de outra oração, a principal, para ter sentido completo.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um condutor elétrico?",
+        "resposta": "Um condutor elétrico é um material que permite a passagem de corrente elétrica com facilidade.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma reação endotérmica?",
+        "resposta": "Uma reação endotérmica absorve calor do ambiente durante o processo químico.",
+        "categoria": "Química"
+    },
+    {
+        "pergunta": "O que é um triângulo equilátero?",
+        "resposta": "Um triângulo equilátero tem todos os lados e ângulos iguais, cada ângulo medindo 60 graus.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é uma oração coordenada?",
+        "resposta": "Uma oração coordenada é aquela que não depende de outra oração e tem sentido completo.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um isolante elétrico?",
+        "resposta": "Um isolante elétrico é um material que oferece grande resistência à passagem de corrente elétrica.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma tabela periódica?",
+        "resposta": "A tabela periódica é uma disposição sistemática dos elementos químicos, organizados por número atômico, eletronegatividade e propriedades químicas.",
+        "categoria": "Química"
+    },
+    {
+        "pergunta": "O que é uma circunferência?",
+        "resposta": "Uma circunferência é o conjunto de todos os pontos em um plano que estão a uma distância fixa de um ponto central.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um adjunto adnominal?",
+        "resposta": "Adjunto adnominal é o termo que caracteriza ou determina um substantivo, geralmente representado por adjetivos ou locuções adjetivas.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um semicondutor?",
+        "resposta": "Um semicondutor é um material que possui condutividade elétrica entre a de um isolante e a de um condutor.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é um ácido?",
+        "resposta": "Um ácido é uma substância que libera íons H+ em solução aquosa e tem pH menor que 7.",
+        "categoria": "Química"
+    },
+    {
+        "pergunta": "O que é um quadrado?",
+        "resposta": "Um quadrado é um polígono regular com quatro lados iguais e quatro ângulos retos.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um adjunto adverbial?",
+        "resposta": "Adjunto adverbial é o termo que indica uma circunstância relacionada ao verbo, como tempo, modo, lugar, causa, entre outros.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um transistor?",
+        "resposta": "Um transistor é um dispositivo semicondutor usado para amplificar ou comutar sinais eletrônicos e energia elétrica.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma base em química?",
+        "resposta": "Uma base é uma substância que libera íons OH- em solução aquosa e tem pH maior que 7.",
+        "categoria": "Química"
+    },
+    {
+        "pergunta": "O que é um retângulo?",
+        "resposta": "Um retângulo é um paralelogramo com quatro ângulos retos.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é uma locução adverbial?",
+        "resposta": "Locução adverbial é um conjunto de duas ou mais palavras que, juntas, exercem a função de um advérbio.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um LED?",
+        "resposta": "LED significa 'diodo emissor de luz', um dispositivo semicondutor que emite luz quando atravessado por corrente elétrica.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é um sal em química?",
+        "resposta": "Um sal é um composto iônico formado pela reação de neutralização entre um ácido e uma base.",
+        "categoria": "Química"
+    },
+    {
+        "pergunta": "O que é um losango?",
+        "resposta": "Um losango é um paralelogramo com todos os lados iguais, mas não necessariamente com ângulos retos.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é uma locução conjuntiva?",
+        "resposta": "Locução conjuntiva é um conjunto de duas ou mais palavras que exercem a função de uma conjunção.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um fusível?",
+        "resposta": "Um fusível é um dispositivo de segurança que interrompe a corrente elétrica quando esta excede um valor seguro.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma oxidação?",
+        "resposta": "Oxidação é uma reação química onde um elemento perde elétrons, aumentando seu estado de oxidação.",
+        "categoria": "Química"
+    },
+    {
+        "pergunta": "O que é um trapézio?",
+        "resposta": "Um trapézio é um quadrilátero com pelo menos um par de lados opostos paralelos.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é uma locução prepositiva?",
+        "resposta": "Locução prepositiva é um conjunto de duas ou mais palavras que exercem a função de uma preposição.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um voltímetro?",
+        "resposta": "Um voltímetro é um instrumento usado para medir a diferença de potencial elétrico entre dois pontos de um circuito.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma redução?",
+        "resposta": "Redução é uma reação química onde um elemento ganha elétrons, diminuindo seu estado de oxidação.",
+        "categoria": "Química"
+    },
+    {
+        "pergunta": "O que é um hexágono?",
+        "resposta": "Um hexágono é um polígono com seis lados e seis ângulos.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é uma locução verbal?",
+        "resposta": "Locução verbal é a combinação de um verbo auxiliar com um verbo principal para expressar uma única ideia.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um amperímetro?",
+        "resposta": "Um amperímetro é um instrumento usado para medir a corrente elétrica que passa por um circuito.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é um ácido forte?",
+        "resposta": "Um ácido forte é aquele que se ioniza completamente em solução aquosa, liberando uma grande quantidade de íons H+.",
+        "categoria": "Química"
+    },
+    {
+        "pergunta": "O que é um pentágono?",
+        "resposta": "Um pentágono é um polígono com cinco lados e cinco ângulos.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um verbo intransitivo?",
+        "resposta": "Verbo intransitivo é aquele que não necessita de complemento para ter sentido completo, podendo ser acompanhado de adjunto adverbial.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um multímetro?",
+        "resposta": "Um multímetro é um instrumento que pode medir tensão, corrente e resistência em um circuito elétrico.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "O que é uma base forte?",
+        "resposta": "Uma base forte é aquela que se ioniza completamente em solução aquosa, liberando uma grande quantidade de íons OH-.",
+        "categoria": "Química"
+    },
+    {
+        "pergunta": "O que é um octógono?",
+        "resposta": "Um octógono é um polígono com oito lados e oito ângulos.",
+        "categoria": "Matemática"
+    },
+    {
+        "pergunta": "O que é um verbo de ligação?",
+        "resposta": "Verbo de ligação é aquele que conecta o sujeito ao predicativo, indicando um estado ou característica.",
+        "categoria": "Língua Portuguesa"
+    },
+    {
+        "pergunta": "O que é um osciloscópio?",
+        "resposta": "Um osciloscópio é um instrumento de medição eletrônico que cria um gráfico visual de variações de tensão.",
+        "categoria": "Física"
+    },
+    {
+        "pergunta": "Qual é a capital da França?",
+        "resposta": "A capital da França é Paris.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "Quem pintou a 'Mona Lisa'?",
+        "resposta": "A 'Mona Lisa' foi pintada por Leonardo da Vinci.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "Qual é o maior planeta do Sistema Solar?",
+        "resposta": "O maior planeta do Sistema Solar é Júpiter.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é um haicai?",
+        "resposta": "Haicai é uma forma poética japonesa composta por três linhas de 5, 7 e 5 sílabas.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "Quem escreveu 'Dom Quixote'?",
+        "resposta": "'Dom Quixote' foi escrito por Miguel de Cervantes.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "Qual é o rio mais longo do mundo?",
+        "resposta": "O rio mais longo do mundo é o Rio Nilo.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é um soneto?",
+        "resposta": "Um soneto é um poema de forma fixa com 14 versos, geralmente divididos em dois quartetos e dois tercetos.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "Quem é o autor de 'Cem Anos de Solidão'?",
+        "resposta": "Gabriel García Márquez é o autor de 'Cem Anos de Solidão'.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "Qual é o elemento químico com o símbolo 'Au'?",
+        "resposta": "O elemento químico com o símbolo 'Au' é o ouro.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é um samurai?",
+        "resposta": "Samurai era um membro da classe guerreira feudal no Japão.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "Qual é o idioma oficial do Brasil?",
+        "resposta": "O idioma oficial do Brasil é o português.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é a Grande Muralha da China?",
+        "resposta": "A Grande Muralha da China é uma antiga fortificação chinesa construída para proteger contra invasões.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "Quem foi Cleópatra?",
+        "resposta": "Cleópatra foi a última rainha do Egito Ptolomaico, conhecida por sua relação com Júlio César e Marco Antônio.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é o Taj Mahal?",
+        "resposta": "O Taj Mahal é um mausoléu de mármore branco na Índia, construído pelo imperador Shah Jahan.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "Quem foi o primeiro homem a pisar na Lua?",
+        "resposta": "Neil Armstrong foi o primeiro homem a pisar na Lua em 1969.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é um quasar?",
+        "resposta": "Um quasar é um objeto astronômico extremamente luminoso, alimentado por um buraco negro supermassivo.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é o Renascimento?",
+        "resposta": "O Renascimento foi um movimento cultural que ocorreu na Europa entre os séculos XIV e XVII.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "Quem foi Sócrates?",
+        "resposta": "Sócrates foi um filósofo grego antigo, considerado um dos fundadores da filosofia ocidental.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é a teoria da evolução?",
+        "resposta": "A teoria da evolução explica a diversidade de vida na Terra pela seleção natural e descendência com modificação.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "Quem foi William Shakespeare?",
+        "resposta": "William Shakespeare foi um dramaturgo e poeta inglês, autor de peças famosas como 'Hamlet' e 'Romeu e Julieta'.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é a Via Láctea?",
+        "resposta": "A Via Láctea é a galáxia que contém o nosso sistema solar, composta por bilhões de estrelas.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é um buraco negro?",
+        "resposta": "Um buraco negro é uma região do espaço-tempo com gravidade tão intensa que nada, nem mesmo a luz, pode escapar.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é a teoria da relatividade?",
+        "resposta": "A teoria da relatividade é um conjunto de duas teorias científicas (especial e geral) formuladas por Albert Einstein.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é o Big Bang?",
+        "resposta": "O Big Bang é a teoria científica que explica a origem do universo a partir de uma grande explosão.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é a Internet?",
+        "resposta": "A Internet é uma rede global de computadores interconectados que permite a troca de informações e comunicação.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é um vírus de computador?",
+        "resposta": "Um vírus de computador é um software malicioso projetado para se espalhar e danificar sistemas de computadores.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é a Revolução Industrial?",
+        "resposta": "A Revolução Industrial foi uma época de grandes transformações tecnológicas e sociais que começou na Inglaterra no século XVIII.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é a ONU?",
+        "resposta": "A ONU é a Organização das Nações Unidas, uma organização internacional fundada em 1945 para promover a paz e a cooperação mundial.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é a OTAN?",
+        "resposta": "A OTAN é a Organização do Tratado do Atlântico Norte, uma aliança militar intergovernamental criada em 1949.",
+        "categoria": "Outros"
+    },
+    {
+        "pergunta": "O que é a UNESCO?",
+        "resposta": "A UNESCO é a Organização das Nações Unidas para a Educação, a Ciência e a Cultura, promovendo a paz e a segurança cultural.",
+        "categoria": "Outros"
+    }
+]

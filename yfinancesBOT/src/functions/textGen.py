@@ -6,7 +6,10 @@ from tools.tools import descriptions
 
 client = openai.Client()
 
-def geracao_texto(mensagens, model="gpt-4o-mini", max_tokens=1000, temperature=1, tools = descriptions):
+
+def geracao_texto(
+    mensagens, model="gpt-4o-mini", max_tokens=1000, temperature=1, tools=descriptions
+):
     """
     Gera texto baseado nas mensagens fornecidas, utilizando um modelo de linguagem.
 
@@ -36,7 +39,7 @@ def geracao_texto(mensagens, model="gpt-4o-mini", max_tokens=1000, temperature=1
         max_tokens=max_tokens,
         temperature=temperature,
         tools=descriptions,
-        tool_choice='auto'
+        tool_choice="auto",
     )
 
     print("TickerBot: ", end="")
@@ -47,20 +50,22 @@ def geracao_texto(mensagens, model="gpt-4o-mini", max_tokens=1000, temperature=1
             func_name = tool_call.function.name
             function_to_call = funcoes_disponiveis[func_name]
             func_args = json.loads(tool_call.function.arguments)
-            func_return = function_to_call(func_args['ticker'], func_args['periodo'])
-            mensagens.append({
-                'tool_call_id': tool_call.id,
-                'role': 'tool',
-                'name': func_name,
-                'content': func_return
-            })
+            func_return = function_to_call(func_args["ticker"], func_args["periodo"])
+            mensagens.append(
+                {
+                    "tool_call_id": tool_call.id,
+                    "role": "tool",
+                    "name": func_name,
+                    "content": func_return,
+                }
+            )
         segunda_resposta = client.chat.completions.create(
             messages=mensagens,
-            model='gpt-3.5-turbo-0125',
+            model="gpt-3.5-turbo-0125",
         )
         mensagens.append(segunda_resposta.choices[0].message)
-    
-    print(mensagens[-1].content, end='')
+
+    print(mensagens[-1].content, end="")
     print()
 
     return mensagens
