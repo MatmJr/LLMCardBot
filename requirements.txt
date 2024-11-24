@@ -20,3 +20,4 @@ faiss-cpu
 lark
 black
 yfinance
+streamlit
