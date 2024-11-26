@@ -61,7 +61,7 @@ def geracao_texto(
             )
         segunda_resposta = client.chat.completions.create(
             messages=mensagens,
-            model="gpt-3.5-turbo-0125",
+            model="gpt-4o-mini",
         )
         mensagens.append(segunda_resposta.choices[0].message)
 
