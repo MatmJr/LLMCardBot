@@ -99,36 +99,3 @@ SELECT COUNT(*) AS "inadimplencia" FROM ccdataset WHERE TARGET = 1;
 **Interpretação:**  
 Há 1.500 registros no banco de dados que indicam inadimplência.
 ```
-
----
-
-### **Sobre Text-to-SQL**
-
-**Text-to-SQL** é uma técnica em que modelos de linguagem natural (como GPT-4) interpretam perguntas ou comandos em texto e os traduzem para consultas SQL. Neste projeto, o LangChain é utilizado para integrar o modelo GPT-4 com o banco de dados, permitindo:
-
-- Geração de consultas SQL a partir de linguagem natural.
-- Interpretação dos resultados e tradução para respostas acessíveis ao usuário.
-
-**Benefícios:**
-- Não é necessário conhecimento de SQL por parte do usuário.
-- Respostas rápidas e contextualizadas diretamente do banco de dados.
-
----
-
-### **Limitações**
-
-- O modelo depende de um banco de dados estruturado e acessível via SQL.
-- Consultas complexas podem não ser totalmente compreendidas ou traduzidas corretamente.
-- É necessário um modelo GPT configurado com acesso via API.
-
----
-
-### **Contribuindo**
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou relatar problemas na seção de issues.
-
----
-
-### **Licença**
-
-Este projeto está sob a licença MIT.
