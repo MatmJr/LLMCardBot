@@ -3,15 +3,15 @@ from src.models.textGen import geracao_texto
 
 
 def paginaPrincipal():
-    if 'messages' not in st.session_state:
+    if "messages" not in st.session_state:
         st.session_state.messages = []
-        
-    messages = st.session_state['messages']
-    
-    st.header('Bem-vindo(a)!', divider=True)
-    
+
+    messages = st.session_state["messages"]
+
+    st.header("Bem-vindo(a)!", divider=True)
+
     st.markdown(
-    """
+        """
     <style>
     .message-box {
         padding: 10px;
@@ -26,26 +26,26 @@ def paginaPrincipal():
         <p> Pergunte algo para o CreditCardBot.</p>
     </div>
     """,
-    unsafe_allow_html=True
-)
-    
-    for message in messages:
-        chat = st.chat_message(message['role'])
-        chat.markdown(message['content'])
-    
-    prompt = st.chat_input('Pergunte algo')
-    
-    if prompt:
-        new_msg = {'role': 'user', 'content': prompt}
-        chat = st.chat_message(new_msg['role'])
-        chat.markdown(new_msg['content'])
-        messages.append(new_msg)
-        st.session_state['mensagens'] = messages
+        unsafe_allow_html=True,
+    )
 
-        chat = st.chat_message('assistant')
+    for message in messages:
+        chat = st.chat_message(message["role"])
+        chat.markdown(message["content"])
+
+    prompt = st.chat_input("Pergunte algo")
+
+    if prompt:
+        new_msg = {"role": "user", "content": prompt}
+        chat = st.chat_message(new_msg["role"])
+        chat.markdown(new_msg["content"])
+        messages.append(new_msg)
+        st.session_state["mensagens"] = messages
+
+        chat = st.chat_message("assistant")
         placeholder = chat.empty()
         resposta = geracao_texto(messages)
-        placeholder.markdown(resposta + '▌')
-        new_msg = {'role': 'assistant', 'content': resposta}
+        placeholder.markdown(resposta + "▌")
+        new_msg = {"role": "assistant", "content": resposta}
         messages.append(new_msg)
-        st.session_state['messages'] = messages
+        st.session_state["messages"] = messages
