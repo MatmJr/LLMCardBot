@@ -21,3 +21,4 @@ lark
 black
 yfinance
 streamlit
+pymysql

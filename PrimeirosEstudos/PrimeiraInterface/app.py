@@ -9,5 +9,5 @@ _ = load_dotenv()
 client = openai.Client()
 
 if __name__ == "__main__":
-        
-    paginaPrincipal()        
+
+    paginaPrincipal()

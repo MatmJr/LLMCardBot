@@ -33,7 +33,7 @@ def geracao_texto(mensagens, max_tokens=1000, temperature=0):
 
     resposta = client.chat.completions.create(
         messages=mensagens,
-        model='ft:gpt-3.5-turbo-0125:personal::AWlj0oFE',
+        model="ft:gpt-3.5-turbo-0125:personal::AWlj0oFE",
         max_tokens=max_tokens,
         temperature=temperature,
         stream=True,

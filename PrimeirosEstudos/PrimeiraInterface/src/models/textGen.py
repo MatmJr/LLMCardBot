@@ -7,9 +7,7 @@ from src.models.tools.tools import descriptions
 client = openai.Client()
 
 
-def geracao_texto(
-    mensagens
-):
+def geracao_texto(mensagens):
     """
     Gera texto baseado nas mensagens fornecidas, utilizando um modelo de linguagem.
 
@@ -38,10 +36,10 @@ def geracao_texto(
         model="gpt-4o-mini",
         temperature=0,
         max_tokens=1000,
-        stream=True
+        stream=True,
     )
 
-    resposta_completa = ''
+    resposta_completa = ""
 
     for streaming_resposta in resposta:
         texto = streaming_resposta.choices[0].delta.content
