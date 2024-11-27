@@ -98,4 +98,3 @@ SELECT COUNT(*) AS "inadimplencia" FROM ccdataset WHERE TARGET = 1;
 
 **Interpretação:**  
 Há 1.500 registros no banco de dados que indicam inadimplência.
-```
